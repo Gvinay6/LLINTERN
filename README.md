@@ -1,10 +1,10 @@
 IMDb Movie Review Sentiment Analysis
-
+_____________________________________________________________________________________________________________________________________________________
 This code performs sentiment analysis on movie reviews collected from the IMDb dataset. The sentiment analysis is carried out using a Support Vector Machine (SVM) classifier with a TfidfVectorizer for text feature extraction. Additionally, a grid search is employed to optimize hyperparameters for the SVM model.
 
 
 Setup and Data Preparation
-
+_____________________________________________________________________________________________________________________________________________________
 The code begins by importing necessary libraries such as NumPy, Pandas, Matplotlib, Seaborn, and scikit-learn. The IMDb dataset (IMDB Dataset.csv) is loaded into a Pandas DataFrame (df_review), containing reviews and corresponding sentiments. The dataset is then split into positive and negative sentiment subsets, each containing 5000 samples. Label encoding is performed on the sentiment labels for model training and evaluation. The dataset is further split into training and testing sets.
 
 
