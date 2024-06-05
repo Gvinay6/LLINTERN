@@ -9,7 +9,7 @@ The code begins by importing necessary libraries such as NumPy, Pandas, Matplotl
 
 
 Model Training
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------
 The TfidfVectorizer is used to convert text data into numerical features. A pipeline is created with a dummy estimator as a placeholder, and a grid search is performed over hyperparameters for different SVM configurations. The best model is selected based on the grid search results.
 
 
